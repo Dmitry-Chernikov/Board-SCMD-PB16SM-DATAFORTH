@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "SCMD-Module-DIM")(type "KiCad")(uri "${KIPRJMOD}/SCMD-Module-DIM.kicad_sym")(options "")(descr ""))
-)
