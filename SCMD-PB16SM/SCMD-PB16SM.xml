@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/dmitry/Документы/KiKadProj/Board-SCMD-PB16SM/SCMD-PB16SM/SCMD-PB16SM.kicad_sch</source>
-    <date>Вс 28 июл 2024 12:31:26</date>
-    <tool>Eeschema 7.0.11-7.0.11~ubuntu22.04.1</tool>
+    <source>/home/dmitry/Документы/KiKadProj/Board SCMD/SCMD-PB16SM/SCMD-PB16SM.kicad_sch</source>
+    <date>Вс 21 янв 2024 22:41:06</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -483,6 +483,17 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d25a9340-c467-4063-973e-5eb54c19d89b</tstamps>
     </comp>
+    <comp ref="J3">
+      <value>Edge Connector</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x14_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x28_Pin" description="Generic connector, single row, 01x28, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SCMD-PB16SM.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x28, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a321066d-d52c-4c22-ae76-7e2d13967c75</tstamps>
+    </comp>
     <comp ref="M1">
       <value>SCMD</value>
       <footprint>Dataforth Modules:SCMD-Module-DIM</footprint>
@@ -746,55 +757,17 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b33bdca5-5096-4560-8cc7-5c2c1b031023</tstamps>
     </comp>
-    <comp ref="S1">
-      <value>Screw_Terminal_01x02</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-12-2.54_1x12_P2.54mm_Horizontal</footprint>
-      <libsource lib="Connector" part="Screw_Terminal_01x12" description="Generic screw terminal, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="SCMD-PB16SM.kicad_sch"/>
-      <property name="ki_description" value="Generic screw terminal, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="screw terminal"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>bb7d6cd6-17e3-43fb-9884-23272b13bf67</tstamps>
-    </comp>
-    <comp ref="S2">
-      <value>Screw_Terminal_01x02</value>
-      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</footprint>
-      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="SCMD-PB16SM.kicad_sch"/>
-      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="screw terminal"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c80b999d-bf60-4f28-9b07-d8c2ed6a1dde</tstamps>
-    </comp>
   </components>
   <libparts>
-    <libpart lib="Connector" part="Screw_Terminal_01x02">
-      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector" part="Conn_01x28_Pin">
+      <description>Generic connector, single row, 01x28, script generated</description>
       <docs>~</docs>
       <footprints>
-        <fp>TerminalBlock*:*</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Screw_Terminal_01x02</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="Screw_Terminal_01x12">
-      <description>Generic screw terminal, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>TerminalBlock*:*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Screw_Terminal_01x12</field>
+        <field name="Value">Conn_01x28_Pin</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -810,6 +783,38 @@
         <pin num="10" name="Pin_10" type="passive"/>
         <pin num="11" name="Pin_11" type="passive"/>
         <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="LED">
@@ -927,7 +932,7 @@
       <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
     </library>
     <library logical="SCMD-Module-DIM">
-      <uri>/home/dmitry/Документы/KiKadProj/Board-SCMD-PB16SM/SCMD-PB16SM/SCMD-Module-DIM.kicad_sym</uri>
+      <uri>/home/dmitry/Документы/KiKadProj/Board SCMD/SCMD-PB16SM/SCMD-Module-DIM.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -937,68 +942,82 @@
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="2" name="/J3-4">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="M1" pin="4" pinfunction="+_logic_in_out" pintype="bidirectional"/>
       <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="S1" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="3" name="/J3-6">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="M2" pin="4" pinfunction="+_logic_in_out" pintype="bidirectional"/>
       <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="S1" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
     <net code="4" name="/J3-8">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="M3" pin="4" pinfunction="+_logic_in_out" pintype="bidirectional"/>
       <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="S1" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
     <net code="5" name="/J3-10">
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="M4" pin="4" pinfunction="+_logic_in_out" pintype="bidirectional"/>
       <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="S1" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
     <net code="6" name="/J3-12">
+      <node ref="J3" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="M5" pin="4" pinfunction="+_logic_in_out" pintype="bidirectional"/>
       <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="S1" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
     <net code="7" name="/J3-14">
+      <node ref="J3" pin="14" pinfunction="Pin_14" pintype="passive"/>
       <node ref="M6" pin="4" pinfunction="+_logic_in_out" pintype="bidirectional"/>
       <node ref="R6" pin="1" pintype="passive"/>
-      <node ref="S1" pin="6" pinfunction="Pin_6" pintype="passive"/>
     </net>
     <net code="8" name="/J3-16">
+      <node ref="J3" pin="16" pinfunction="Pin_16" pintype="passive"/>
       <node ref="M7" pin="4" pinfunction="+_logic_in_out" pintype="bidirectional"/>
       <node ref="R7" pin="1" pintype="passive"/>
-      <node ref="S1" pin="7" pinfunction="Pin_7" pintype="passive"/>
     </net>
     <net code="9" name="/J3-18">
+      <node ref="J3" pin="18" pinfunction="Pin_18" pintype="passive"/>
       <node ref="M8" pin="4" pinfunction="+_logic_in_out" pintype="bidirectional"/>
       <node ref="R8" pin="1" pintype="passive"/>
-      <node ref="S1" pin="8" pinfunction="Pin_8" pintype="passive"/>
     </net>
     <net code="10" name="/J3-20">
+      <node ref="J3" pin="20" pinfunction="Pin_20" pintype="passive"/>
       <node ref="M9" pin="4" pinfunction="+_logic_in_out" pintype="bidirectional"/>
       <node ref="R9" pin="1" pintype="passive"/>
-      <node ref="S1" pin="9" pinfunction="Pin_9" pintype="passive"/>
     </net>
     <net code="11" name="/J3-22">
+      <node ref="J3" pin="22" pinfunction="Pin_22" pintype="passive"/>
       <node ref="M10" pin="4" pinfunction="+_logic_in_out" pintype="bidirectional"/>
       <node ref="R10" pin="1" pintype="passive"/>
-      <node ref="S1" pin="10" pinfunction="Pin_10" pintype="passive"/>
     </net>
     <net code="12" name="/J3-24">
+      <node ref="J3" pin="24" pinfunction="Pin_24" pintype="passive"/>
       <node ref="M11" pin="4" pinfunction="+_logic_in_out" pintype="bidirectional"/>
       <node ref="R11" pin="1" pintype="passive"/>
-      <node ref="S1" pin="11" pinfunction="Pin_11" pintype="passive"/>
     </net>
     <net code="13" name="/J3-26">
+      <node ref="J3" pin="26" pinfunction="Pin_26" pintype="passive"/>
       <node ref="M12" pin="4" pinfunction="+_logic_in_out" pintype="bidirectional"/>
       <node ref="R12" pin="1" pintype="passive"/>
-      <node ref="S1" pin="12" pinfunction="Pin_12" pintype="passive"/>
     </net>
     <net code="14" name="GND">
       <node ref="D15" pin="2" pinfunction="A2" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J3" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J3" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J3" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J3" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J3" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="J3" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="J3" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="J3" pin="27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="M1" pin="5" pinfunction="-_logic_in_out" pintype="bidirectional"/>
       <node ref="M10" pin="5" pinfunction="-_logic_in_out" pintype="bidirectional"/>
       <node ref="M11" pin="5" pinfunction="-_logic_in_out" pintype="bidirectional"/>
@@ -1012,7 +1031,6 @@
       <node ref="M8" pin="5" pinfunction="-_logic_in_out" pintype="bidirectional"/>
       <node ref="M9" pin="5" pinfunction="-_logic_in_out" pintype="bidirectional"/>
       <node ref="RPL1" pin="1" pintype="passive"/>
-      <node ref="S2" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="15" name="Net-(D1-K)">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
@@ -1229,6 +1247,8 @@
       <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="F13" pin="2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="28" pinfunction="Pin_28" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
@@ -1241,7 +1261,6 @@
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
-      <node ref="S2" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
   </nets>
 </export>

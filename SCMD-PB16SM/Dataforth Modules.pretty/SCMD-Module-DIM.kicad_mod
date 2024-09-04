@@ -24,8 +24,13 @@
   (pad "3" thru_hole circle (at -8.9 2.6) (size 3 3) (drill 1.4) (layers "*.Cu" "*.Mask") (tstamp d200a346-6d86-42dc-8797-211a6d7a61d4))
   (pad "4" thru_hole circle (at -14 2.6) (size 3 3) (drill 1.4) (layers "*.Cu" "*.Mask") (tstamp b8764074-1047-4b60-988b-b8a80b70bdf0))
   (pad "5" thru_hole circle (at -19 2.6) (size 3 3) (drill 1.4) (layers "*.Cu" "*.Mask") (tstamp 48287893-2df7-485c-80cf-f71db1702d5f))
-  (model "${KIPRJMOD}/3D model/SCMD-Module-DIM 3D model.step"
+  (model "${KIPRJMOD}/3D model/SCMD-Module-DIM 3D model.step" hide
     (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/3D model/SCMD-Module-DIM and sleeve 3D model.step"
+    (offset (xyz 0 0 1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
