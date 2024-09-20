@@ -1507,6 +1507,168 @@
 				)
 			)
 		)
+		(symbol "Diode:1N4148"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Diode:1N62xxA"
 			(pin_numbers hide)
 			(pin_names
@@ -1624,6 +1786,151 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start 1.524 1.27)
+					(mid 0 1.778)
+					(end -1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2131,6 +2438,12 @@
 		)
 	)
 	(junction
+		(at 48.26 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "065f97d9-a09f-4113-9e65-ba0a974c32bb")
+	)
+	(junction
 		(at 59.69 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2155,6 +2468,12 @@
 		(uuid "2f0d4c64-58a2-4d0a-940d-fe221521619d")
 	)
 	(junction
+		(at 127 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fa37b59-a820-4719-936d-4247c4b733ec")
+	)
+	(junction
 		(at 138.43 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2167,10 +2486,22 @@
 		(uuid "44aae48e-e01a-443a-be9b-34e0f461462d")
 	)
 	(junction
+		(at 127 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dd988c2-9acc-4cf2-ace8-1416f11382fe")
+	)
+	(junction
 		(at 138.43 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56053ca8-8371-4854-b0f8-255a1b8d1273")
+	)
+	(junction
+		(at 48.26 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "576081b4-420d-485c-86c7-460ad4b4e9a6")
 	)
 	(junction
 		(at 224.79 38.1)
@@ -2197,6 +2528,12 @@
 		(uuid "6f13c9a4-4d11-41e0-b25b-3cf9fb614e34")
 	)
 	(junction
+		(at 127 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7123c9aa-ec5a-4be6-b56b-ac238eb0835e")
+	)
+	(junction
 		(at 138.43 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2213,6 +2550,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "849b04f2-775e-4e11-80d8-2d8a3da01a04")
+	)
+	(junction
+		(at 127 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85b1ea84-0af9-4e67-a2c4-dd6982827727")
 	)
 	(junction
 		(at 138.43 125.73)
@@ -2245,10 +2588,28 @@
 		(uuid "927d531b-478a-4e2f-b15b-c1e9db96fa63")
 	)
 	(junction
+		(at 127 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95b6d67c-245d-4b05-93b7-e3b86266e31b")
+	)
+	(junction
+		(at 48.26 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acb483a2-9587-4f25-80ed-a123f0e2b1f4")
+	)
+	(junction
 		(at 247.65 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0a6be04-6c75-4b90-828d-7c43a4365285")
+	)
+	(junction
+		(at 48.26 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b72dbfd7-28e6-4c7c-bfd7-1ab6d5ba623c")
 	)
 	(junction
 		(at 138.43 72.39)
@@ -2263,6 +2624,12 @@
 		(uuid "c05f1b7d-e441-4267-8922-4aeab4591ee6")
 	)
 	(junction
+		(at 48.26 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce57b5a5-f917-4fe4-b124-b5ccf6c41702")
+	)
+	(junction
 		(at 59.69 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2273,6 +2640,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e08543dd-c859-4dba-a120-b7e64059b166")
+	)
+	(junction
+		(at 127 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e233aade-68dc-4c7f-abc9-3f8911c0b2e7")
 	)
 	(junction
 		(at 59.69 92.71)
@@ -2304,9 +2677,15 @@
 		(color 0 0 0 0)
 		(uuid "fe31d377-2fae-4086-9056-72017a335362")
 	)
+	(junction
+		(at 48.26 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff0e97fd-e758-4caf-9254-be6433615c43")
+	)
 	(wire
 		(pts
-			(xy 57.15 153.67) (xy 59.69 153.67)
+			(xy 44.45 153.67) (xy 48.26 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2366,7 +2745,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 73.66) (xy 59.69 73.66)
+			(xy 43.18 73.66) (xy 48.26 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2426,7 +2805,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 99.06) (xy 138.43 99.06)
+			(xy 48.26 106.68) (xy 48.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18af488b-08c5-4506-8401-81ec8cd8fa79")
+	)
+	(wire
+		(pts
+			(xy 123.19 99.06) (xy 127 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2456,6 +2845,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 26.67) (xy 48.26 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca8b679-91c2-4b20-a2ea-b72c1cf2790d")
+	)
+	(wire
+		(pts
 			(xy 140.97 162.56) (xy 140.97 161.29)
 		)
 		(stroke
@@ -2473,6 +2872,16 @@
 			(type default)
 		)
 		(uuid "264d02bb-7183-4f8e-903e-ec6e5d1b1af4")
+	)
+	(wire
+		(pts
+			(xy 127 78.74) (xy 127 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277f532d-8d4a-497f-874a-7b194784629e")
 	)
 	(wire
 		(pts
@@ -2496,7 +2905,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 72.39) (xy 138.43 72.39)
+			(xy 48.26 73.66) (xy 59.69 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b5100a-6ebb-492b-8a8b-41129e96e2b5")
+	)
+	(wire
+		(pts
+			(xy 123.19 72.39) (xy 127 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2513,6 +2932,16 @@
 			(type default)
 		)
 		(uuid "33f79506-f3ed-4207-b311-8e7aaeeb0d19")
+	)
+	(wire
+		(pts
+			(xy 48.26 53.34) (xy 48.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d46e854-34c2-41f4-98b6-c3ccba071ed8")
 	)
 	(wire
 		(pts
@@ -2533,6 +2962,16 @@
 			(type default)
 		)
 		(uuid "3de59ee3-705b-4043-9069-d9423683f1d6")
+	)
+	(wire
+		(pts
+			(xy 127 179.07) (xy 138.43 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3efce58e-1f38-4b9c-ba55-15f4c305bb0f")
 	)
 	(wire
 		(pts
@@ -2586,6 +3025,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 158.75) (xy 127 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511f7968-5a1b-430b-8e96-db00d4109f43")
+	)
+	(wire
+		(pts
 			(xy 140.97 82.55) (xy 140.97 81.28)
 		)
 		(stroke
@@ -2626,7 +3075,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 125.73) (xy 138.43 125.73)
+			(xy 48.26 181.61) (xy 59.69 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e193423-97d3-48e8-85d2-36583439c1f4")
+	)
+	(wire
+		(pts
+			(xy 123.19 125.73) (xy 127 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2646,6 +3105,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 72.39) (xy 138.43 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63396abf-e489-457f-8bf9-5884e6a10b4b")
+	)
+	(wire
+		(pts
 			(xy 62.23 82.55) (xy 67.31 82.55)
 		)
 		(stroke
@@ -2656,7 +3125,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 45.72) (xy 138.43 45.72)
+			(xy 123.19 45.72) (xy 127 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2676,7 +3145,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 127) (xy 59.69 127)
+			(xy 43.18 46.99) (xy 48.26 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7e74e6-2d74-4d5e-b756-a76eea9bd726")
+	)
+	(wire
+		(pts
+			(xy 44.45 127) (xy 48.26 127)
 		)
 		(stroke
 			(width 0)
@@ -2693,6 +3172,16 @@
 			(type default)
 		)
 		(uuid "7413d182-15e3-423e-955f-d9de1a5b87c0")
+	)
+	(wire
+		(pts
+			(xy 127 152.4) (xy 138.43 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749f99b4-41f6-409f-8b62-7ac90ee65db2")
 	)
 	(wire
 		(pts
@@ -2713,6 +3202,26 @@
 			(type default)
 		)
 		(uuid "76fcbbd5-b60a-45f5-9893-a8ce377e3a4d")
+	)
+	(wire
+		(pts
+			(xy 48.26 153.67) (xy 59.69 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78db3a2f-4c09-46b9-bc88-30d83f62953d")
+	)
+	(wire
+		(pts
+			(xy 48.26 100.33) (xy 59.69 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e13104-03e5-46ff-a9a3-0788d0b4f963")
 	)
 	(wire
 		(pts
@@ -2766,13 +3275,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 46.99) (xy 59.69 46.99)
+			(xy 48.26 133.35) (xy 48.26 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f4e14c6-e469-49c9-8f59-e33d9cb19b8a")
+		(uuid "8fe30ccf-b3ba-4efb-a986-40194d8bb415")
 	)
 	(wire
 		(pts
@@ -2806,7 +3315,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 179.07) (xy 138.43 179.07)
+			(xy 123.19 179.07) (xy 127 179.07)
 		)
 		(stroke
 			(width 0)
@@ -2836,6 +3345,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 52.07) (xy 127 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb359a5-4aff-46eb-9fda-10280cb6171b")
+	)
+	(wire
+		(pts
 			(xy 140.97 55.88) (xy 140.97 54.61)
 		)
 		(stroke
@@ -2846,7 +3365,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 100.33) (xy 59.69 100.33)
+			(xy 43.18 100.33) (xy 48.26 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2886,7 +3405,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 152.4) (xy 138.43 152.4)
+			(xy 123.19 152.4) (xy 127 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2913,6 +3432,16 @@
 			(type default)
 		)
 		(uuid "a9d5fd6b-f96c-4e63-bd47-29c53adff54d")
+	)
+	(wire
+		(pts
+			(xy 127 45.72) (xy 138.43 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08db19e-3cc6-461c-8419-86c2615a2771")
 	)
 	(wire
 		(pts
@@ -2956,6 +3485,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 132.08) (xy 127 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be328b6d-78c4-483c-9c2f-cc49b1383c80")
+	)
+	(wire
+		(pts
+			(xy 48.26 80.01) (xy 48.26 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfaf4f29-abaa-4de1-9744-86decdbabd8d")
+	)
+	(wire
+		(pts
 			(xy 143.51 99.06) (xy 143.51 95.25)
 		)
 		(stroke
@@ -2996,6 +3545,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 105.41) (xy 127 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c433f37d-9ab4-4c66-89a8-c3cb4712a41b")
+	)
+	(wire
+		(pts
 			(xy 143.51 179.07) (xy 143.51 175.26)
 		)
 		(stroke
@@ -3013,6 +3572,16 @@
 			(type default)
 		)
 		(uuid "c6f1143d-a652-4b7f-87e3-20a422464e99")
+	)
+	(wire
+		(pts
+			(xy 127 99.06) (xy 138.43 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c86cec-724f-4f4f-a9c8-30a0b9785395")
 	)
 	(wire
 		(pts
@@ -3046,6 +3615,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 127) (xy 59.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06ac022-0bc3-420d-9035-0e1314935a56")
+	)
+	(wire
+		(pts
 			(xy 64.77 73.66) (xy 64.77 69.85)
 		)
 		(stroke
@@ -3066,13 +3645,23 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 181.61) (xy 59.69 181.61)
+			(xy 44.45 181.61) (xy 48.26 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "da2fca06-7dd0-4134-af18-7daf51b11e5d")
+	)
+	(wire
+		(pts
+			(xy 127 125.73) (xy 138.43 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4c12a9-b888-404f-977b-0e561867e922")
 	)
 	(wire
 		(pts
@@ -3096,6 +3685,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 46.99) (xy 59.69 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e891284d-c80f-4046-831f-127e2f096919")
+	)
+	(wire
+		(pts
 			(xy 138.43 125.73) (xy 143.51 125.73)
 		)
 		(stroke
@@ -3106,6 +3705,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 161.29) (xy 48.26 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eea7b185-1e4e-4aac-8125-7503620c8c40")
+	)
+	(wire
+		(pts
 			(xy 143.51 41.91) (xy 146.05 41.91)
 		)
 		(stroke
@@ -3113,6 +3722,16 @@
 			(type default)
 		)
 		(uuid "f4821db3-359e-4964-9f1b-8f3dc8fdab07")
+	)
+	(wire
+		(pts
+			(xy 127 25.4) (xy 127 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ababb3-a8a7-4413-85a7-a20232f6d419")
 	)
 	(wire
 		(pts
@@ -3135,7 +3754,7 @@
 		(uuid "fe17381b-a1fa-477d-bb4c-4eeaa8bfee60")
 	)
 	(label "J3-4"
-		(at 57.15 46.99 180)
+		(at 43.18 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3156,8 +3775,30 @@
 		)
 		(uuid "236d1726-9c8b-45a4-b2c7-7c4aba9abb77")
 	)
+	(label "J3-27"
+		(at 48.26 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "299e295c-29d8-469d-b474-27f2e5c60851")
+	)
+	(label "J3-27"
+		(at 127 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3670277b-a0a0-460c-b8f2-569a151e03bf")
+	)
 	(label "J3-24"
-		(at 135.89 72.39 180)
+		(at 123.19 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3177,6 +3818,17 @@
 			(justify left bottom)
 		)
 		(uuid "3e2ca0c5-2898-40e5-bed3-402388cff4df")
+	)
+	(label "J3-27"
+		(at 215.9 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48455144-05d5-48bf-a247-443f178fcbc7")
 	)
 	(label "J3-24"
 		(at 215.9 101.6 0)
@@ -3200,8 +3852,19 @@
 		)
 		(uuid "55363e23-6863-4aca-b0a9-cab5a4b66d8d")
 	)
+	(label "J3-27"
+		(at 48.26 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59584eef-e301-4f14-bfec-7365cc80428f")
+	)
 	(label "J3-12"
-		(at 57.15 153.67 180)
+		(at 44.45 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3210,6 +3873,17 @@
 			(justify right bottom)
 		)
 		(uuid "60e1b08f-65b3-4f18-ac62-006981d4219d")
+	)
+	(label "J3-27"
+		(at 127 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "69e7cd8d-99b2-48ac-a403-3c2ec1d03e21")
 	)
 	(label "J3-22"
 		(at 215.9 99.06 0)
@@ -3221,6 +3895,17 @@
 			(justify left bottom)
 		)
 		(uuid "87e950ca-6fdf-4abf-a805-6184fe526de2")
+	)
+	(label "J3-27"
+		(at 48.26 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b47f949-ba42-47aa-8206-437936013b6a")
 	)
 	(label "J3-14"
 		(at 215.9 88.9 0)
@@ -3234,7 +3919,7 @@
 		(uuid "8e4ce474-c76b-4057-9615-d5f733728cbb")
 	)
 	(label "J3-20"
-		(at 135.89 125.73 180)
+		(at 123.19 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3243,6 +3928,28 @@
 			(justify right bottom)
 		)
 		(uuid "99dfd0ee-8a89-4730-b080-fbc348948bc5")
+	)
+	(label "J3-27"
+		(at 215.9 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f5b8b2c-d5ca-40f9-ad96-58513db69fb8")
+	)
+	(label "J3-27"
+		(at 127 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9fc82660-ce40-420e-8612-64e931295c93")
 	)
 	(label "J3-10"
 		(at 215.9 83.82 0)
@@ -3254,6 +3961,17 @@
 			(justify left bottom)
 		)
 		(uuid "a7bade4d-857c-45f4-8555-416e459b5b11")
+	)
+	(label "J3-27"
+		(at 127 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a999942a-0302-4c5b-9b34-7340e51f58d5")
 	)
 	(label "J3-26"
 		(at 215.9 104.14 0)
@@ -3267,7 +3985,7 @@
 		(uuid "b0ab39d2-9172-46d3-8d46-2539b3cd0fe9")
 	)
 	(label "J3-16"
-		(at 135.89 179.07 180)
+		(at 123.19 179.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3276,6 +3994,17 @@
 			(justify right bottom)
 		)
 		(uuid "b47fa4f7-7122-4f48-9c3b-38478c459530")
+	)
+	(label "J3-27"
+		(at 48.26 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbdfe490-5453-46a9-a7f2-4555055ac46e")
 	)
 	(label "J3-12"
 		(at 215.9 86.36 0)
@@ -3288,8 +4017,19 @@
 		)
 		(uuid "bda4b44f-2d7b-4003-936a-03b50131dd56")
 	)
+	(label "J3-27"
+		(at 127 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c80e7c46-2a30-4c73-9c35-5125b125664e")
+	)
 	(label "J3-6"
-		(at 57.15 73.66 180)
+		(at 43.18 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3311,7 +4051,7 @@
 		(uuid "cba29b4a-d435-4610-8de8-2637932a889c")
 	)
 	(label "J3-8"
-		(at 58.42 100.33 180)
+		(at 43.18 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3321,8 +4061,19 @@
 		)
 		(uuid "cd5d4ae7-4e4d-401e-ab89-4387e8cd42b2")
 	)
+	(label "J3-27"
+		(at 127 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dda35d4c-356f-434a-97f2-dfc57963a51a")
+	)
 	(label "J3-18"
-		(at 135.89 152.4 180)
+		(at 123.19 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3333,7 +4084,7 @@
 		(uuid "e0a369d2-11d0-4127-b8dc-3bb9698c33d8")
 	)
 	(label "J3-22"
-		(at 135.89 99.06 180)
+		(at 123.19 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3342,6 +4093,28 @@
 			(justify right bottom)
 		)
 		(uuid "e129cbe9-f1bd-4e1f-9457-6e59869eb580")
+	)
+	(label "J3-27"
+		(at 48.26 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3fddcc4-2e6c-4b08-bc1e-a99f2e68a54f")
+	)
+	(label "J3-27"
+		(at 48.26 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e67455f6-eedc-439e-a730-60cd9e70caee")
 	)
 	(label "J3-6"
 		(at 215.9 78.74 0)
@@ -3355,7 +4128,7 @@
 		(uuid "ea1d422d-399f-4796-b1ea-dff93a86c0ad")
 	)
 	(label "J3-10"
-		(at 58.42 127 180)
+		(at 44.45 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3377,7 +4150,7 @@
 		(uuid "f6551c4d-8edb-4bef-ba4f-fe64befe47b0")
 	)
 	(label "J3-14"
-		(at 57.15 181.61 180)
+		(at 44.45 181.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3388,7 +4161,7 @@
 		(uuid "f7ace0a2-df7d-4c8f-a319-a52e2aa8457d")
 	)
 	(label "J3-26"
-		(at 135.89 45.72 180)
+		(at 123.19 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3477,6 +4250,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 48.26 95.25 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01b2bbfc-a778-4611-a5eb-9426a2ffb022")
+		(property "Reference" "JP3"
+			(at 41.402 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PCIN Init"
+			(at 37.592 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 48.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCIN Init"
+			(at 48.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "baf63519-f867-4d5c-9c1a-745cbd0c1fc1")
+		)
+		(pin "1"
+			(uuid "06774c2d-0f6c-4289-95cc-9d520918a1ac")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 57.15 30.48 0)
 		(mirror y)
@@ -3495,7 +4337,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "KF141R-2.54-02P-14"
 			(at 58.42 35.56 90)
 			(effects
 				(font
@@ -3505,7 +4347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Series_KF141R:KF141R-2.54-02P-14 (DG141R-2.54-02P-14)"
 			(at 57.15 30.48 0)
 			(effects
 				(font
@@ -3679,6 +4521,75 @@
 			(project "SCMD-PB16SM"
 				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 127 147.32 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1206668c-25e3-450f-a5ea-db8fb6e2ea73")
+		(property "Reference" "JP8"
+			(at 120.142 145.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PCIN Init"
+			(at 116.332 148.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 127 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCIN Init"
+			(at 127 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d289081-88c9-4b1c-b284-4e444546c7f3")
+		)
+		(pin "1"
+			(uuid "d11e972a-024f-4ac9-b22c-fee2991c1473")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -4183,6 +5094,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 48.26 121.92 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2499f786-63fa-4727-a5fe-8dc9ada5c654")
+		(property "Reference" "JP4"
+			(at 41.402 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PCIN Init"
+			(at 37.592 122.682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 48.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCIN Init"
+			(at 48.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a957eb27-6ff7-4b0d-bf9a-d79ac06767d0")
+		)
+		(pin "1"
+			(uuid "d09513ae-72b2-45a1-9672-9a89776d1e75")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 67.31 100.33 0)
 		(unit 1)
@@ -4243,6 +5223,75 @@
 			(project "SCMD-PB16SM"
 				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 48.26 41.91 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2968e87c-4832-4804-8f6a-d287c2645be9")
+		(property "Reference" "JP1"
+			(at 41.402 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PCIN Init"
+			(at 37.592 42.672 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 48.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCIN Init"
+			(at 48.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b0b380e-b3f3-4200-bf38-bd4f36225491")
+		)
+		(pin "1"
+			(uuid "905ab138-8e31-4c2c-ab1a-60c24fc4a379")
+		)
+		(instances
+			(project ""
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -4321,6 +5370,93 @@
 			(project "SCMD-PB16SM"
 				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
 					(reference "M6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 127 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d7568f0-ab09-46f0-a6b4-021eba439041")
+		(property "Reference" "DL12"
+			(at 119.888 30.734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 117.856 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 127 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 127 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 127 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcd6e8c9-3262-442d-93b2-f479940f073f")
+		)
+		(pin "2"
+			(uuid "06030fd1-adfb-4b57-9649-f3e4fe69ebc3")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "DL12")
 					(unit 1)
 				)
 			)
@@ -5312,7 +6448,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "KF141R-2.54-02P-14"
 			(at 58.42 142.24 90)
 			(effects
 				(font
@@ -5322,7 +6458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Series_KF141R:KF141R-2.54-02P-14 (DG141R-2.54-02P-14)"
 			(at 57.15 137.16 0)
 			(effects
 				(font
@@ -5383,7 +6519,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "KF141R-2.54-02P-14"
 			(at 137.16 167.64 90)
 			(effects
 				(font
@@ -5393,7 +6529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Series_KF141R:KF141R-2.54-02P-14 (DG141R-2.54-02P-14)"
 			(at 135.89 162.56 0)
 			(effects
 				(font
@@ -5454,7 +6590,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "KF141R-2.54-02P-14"
 			(at 137.16 87.63 90)
 			(effects
 				(font
@@ -5464,7 +6600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Series_KF141R:KF141R-2.54-02P-14 (DG141R-2.54-02P-14)"
 			(at 135.89 82.55 0)
 			(effects
 				(font
@@ -5842,6 +6978,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 48.26 68.58 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "525968a8-a998-4b38-b5b8-1267cbc51121")
+		(property "Reference" "JP2"
+			(at 41.402 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PCIN Init"
+			(at 37.592 69.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 48.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCIN Init"
+			(at 48.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34387ef1-b3d2-4497-8d13-ee3cf9719061")
+		)
+		(pin "1"
+			(uuid "0d11f3b5-fe0d-4044-a5cf-c8020f15f165")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 57.15 57.15 0)
 		(mirror y)
@@ -5860,7 +7065,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "KF141R-2.54-02P-14"
 			(at 58.42 62.23 90)
 			(effects
 				(font
@@ -5870,7 +7075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Series_KF141R:KF141R-2.54-02P-14 (DG141R-2.54-02P-14)"
 			(at 57.15 57.15 0)
 			(effects
 				(font
@@ -6050,6 +7255,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 127 93.98 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5732398d-f67c-4c68-8bef-d85fa664d4c1")
+		(property "Reference" "JP10"
+			(at 120.142 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PCIN Init"
+			(at 116.332 94.742 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 127 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCIN Init"
+			(at 127 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1a97186-5b86-47a8-9cb3-96075649f08d")
+		)
+		(pin "1"
+			(uuid "15debc46-7418-47e8-8e8f-956251badb28")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "JP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 67.31 153.67 0)
 		(unit 1)
@@ -6134,7 +7408,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "KF141R-2.54-02P-14"
 			(at 137.16 34.29 90)
 			(effects
 				(font
@@ -6144,7 +7418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Series_KF141R:KF141R-2.54-02P-14 (DG141R-2.54-02P-14)"
 			(at 135.89 29.21 0)
 			(effects
 				(font
@@ -6205,7 +7479,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "KF141R-2.54-02P-14"
 			(at 137.16 114.3 90)
 			(effects
 				(font
@@ -6215,7 +7489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Series_KF141R:KF141R-2.54-02P-14 (DG141R-2.54-02P-14)"
 			(at 135.89 109.22 0)
 			(effects
 				(font
@@ -6421,7 +7695,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "KF141R-2.54-02P-14"
 			(at 58.42 88.9 90)
 			(effects
 				(font
@@ -6431,7 +7705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Series_KF141R:KF141R-2.54-02P-14 (DG141R-2.54-02P-14)"
 			(at 57.15 83.82 0)
 			(effects
 				(font
@@ -6560,7 +7834,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "KF141R-2.54-02P-14"
 			(at 137.16 140.97 90)
 			(effects
 				(font
@@ -6570,7 +7844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Series_KF141R:KF141R-2.54-02P-14 (DG141R-2.54-02P-14)"
 			(at 135.89 135.89 0)
 			(effects
 				(font
@@ -7030,6 +8304,180 @@
 			(project "SCMD-PB16SM"
 				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
 					(reference "M10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 48.26 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e9d7023-130f-44c3-a250-9f7f60c1c732")
+		(property "Reference" "DL4"
+			(at 41.148 112.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 39.116 114.554 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "176ab4ce-e9b8-4861-b0b4-296eb41b7834")
+		)
+		(pin "2"
+			(uuid "b49826c9-f027-4daa-903f-36fcb8173b1b")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "DL4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 127 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "780e3240-12a0-4c70-9572-2cd12e92fb65")
+		(property "Reference" "DL11"
+			(at 119.888 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 117.856 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71af5287-17c9-428f-a1dc-47c2cf99e08c")
+		)
+		(pin "2"
+			(uuid "6d64160f-4778-451f-b8ed-67407bb95f25")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "DL11")
 					(unit 1)
 				)
 			)
@@ -7668,6 +9116,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 127 173.99 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ec3819b-af2a-4c48-8fb1-839011aab49a")
+		(property "Reference" "JP7"
+			(at 120.142 171.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PCIN Init"
+			(at 116.332 174.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 127 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCIN Init"
+			(at 127 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bbfaba5-73b2-4d69-8e13-b826522d10fe")
+		)
+		(pin "1"
+			(uuid "5e85d08d-b85e-454f-bf21-d2aed2012a35")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 48.26 176.53 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "981e7058-90e3-4a45-af34-e86e789521dc")
+		(property "Reference" "JP6"
+			(at 41.402 174.244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PCIN Init"
+			(at 37.592 177.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 48.26 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCIN Init"
+			(at 48.26 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3dd96ddf-6521-4ea2-a2f1-bf4de218da98")
+		)
+		(pin "1"
+			(uuid "02a5031e-b7ee-4c4b-a8fc-3fb70010ea75")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 138.43 121.92 0)
 		(mirror x)
@@ -7730,6 +9316,93 @@
 			(project "SCMD-PB16SM"
 				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 48.26 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c3942ca-9196-4d87-8b31-1938051f6fc7")
+		(property "Reference" "DL2"
+			(at 41.148 58.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 39.116 61.214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e34128c3-0ce7-425f-b1b7-33744d1a6f69")
+		)
+		(pin "2"
+			(uuid "b781bd43-4ccc-4ff6-a5c2-fcd8cbdd1831")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "DL2")
 					(unit 1)
 				)
 			)
@@ -7939,6 +9612,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 210.82 113.03 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a177d9d8-b7f6-4975-ae27-f678e1f177ae")
+		(property "Reference" "S4"
+			(at 208.28 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "KF141R-2.54-02P-14"
+			(at 212.09 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Series_KF141R:KF141R-2.54-02P-14 (DG141R-2.54-02P-14)"
+			(at 210.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55911c25-843b-406a-813d-6e3e8d92fb84")
+		)
+		(pin "2"
+			(uuid "e5ecac95-9129-4208-bdbd-8688d8b54d39")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Polyfuse_Small")
 		(at 143.51 111.76 90)
 		(unit 1)
@@ -8076,6 +9820,267 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 127 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a91b4639-1da3-433a-aae0-e12f4e409b45")
+		(property "Reference" "DL10"
+			(at 119.888 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 117.856 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84ffd968-01cc-4455-89f1-6d590078496c")
+		)
+		(pin "2"
+			(uuid "bb9123b6-9bc1-485a-8914-aaf32fb90640")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "DL10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 48.26 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a993d4e2-bb69-423a-9ff1-bdfee8f39724")
+		(property "Reference" "DL1"
+			(at 41.148 32.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 39.116 34.544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53ce5ab0-f5df-4e85-a88c-31821ee1619f")
+		)
+		(pin "2"
+			(uuid "54a4ed4e-5b5d-4f61-a4fc-d2371e5ebc40")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "DL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 48.26 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab3a3695-7065-4c5a-81e2-069d208c1e5d")
+		(property "Reference" "DL5"
+			(at 41.148 138.684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 39.116 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 48.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 48.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 48.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 48.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c76aa5c-baab-4aec-b3f8-760a3b9c998f")
+		)
+		(pin "2"
+			(uuid "870f7372-0d6e-4e08-baa9-2ef9ec4b7b91")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "DL5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Polyfuse_Small")
 		(at 143.51 58.42 90)
 		(unit 1)
@@ -8140,6 +10145,75 @@
 			(project "SCMD-PB16SM"
 				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
 					(reference "F11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 127 67.31 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af38510c-6301-41a0-b264-c8c06cc912f6")
+		(property "Reference" "JP11"
+			(at 120.142 65.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PCIN Init"
+			(at 116.332 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCIN Init"
+			(at 127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "22e48e34-c0c1-4b8a-b1d6-4bd0654cc3ec")
+		)
+		(pin "1"
+			(uuid "eb913c21-299c-430c-8e15-5f13089f0b55")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -8342,6 +10416,162 @@
 			(project "SCMD-PB16SM"
 				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 127 120.65 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5b5e83b-5cea-4bda-933a-ace3da778c5a")
+		(property "Reference" "JP9"
+			(at 120.142 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PCIN Init"
+			(at 116.332 121.412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCIN Init"
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3890ce5f-18b2-4290-982a-c77ecf80090a")
+		)
+		(pin "1"
+			(uuid "4ae286a0-9a58-4291-85eb-b9ae9a91ada6")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 127 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b89179e6-d003-4f4b-9824-33bee71ac4e9")
+		(property "Reference" "DL7"
+			(at 119.888 164.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 117.856 166.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 127 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 127 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 127 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a56f1910-5ba1-4832-bd70-0eaffaac6329")
+		)
+		(pin "2"
+			(uuid "18b2c80f-cad5-4c4c-a4cd-141e5ba57f9c")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "DL7")
 					(unit 1)
 				)
 			)
@@ -8568,7 +10798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb7d6cd6-17e3-43fb-9884-23272b13bf67")
-		(property "Reference" "S1"
+		(property "Reference" "S2"
 			(at 208.28 88.9 90)
 			(effects
 				(font
@@ -8577,7 +10807,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "KF141R-2.54-12P-14"
 			(at 212.09 93.98 90)
 			(effects
 				(font
@@ -8587,7 +10817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-12-2.54_1x12_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Series_KF141R:KF141R-2.54-12P-14 (DG141R-2.54-12P-14)"
 			(at 210.82 88.9 0)
 			(effects
 				(font
@@ -8653,7 +10883,7 @@
 		(instances
 			(project "SCMD-PB16SM"
 				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
-					(reference "S1")
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -8864,6 +11094,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 127 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c20d30b3-3519-4e29-ac18-ec527a85800f")
+		(property "Reference" "DL9"
+			(at 119.888 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 117.856 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffa52612-ce9e-4293-b47d-c62b80aa0551")
+		)
+		(pin "2"
+			(uuid "9e864ef7-ef64-4c56-9a60-b696030900dd")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "DL9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 210.82 106.68 0)
 		(mirror y)
@@ -8873,7 +11190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c80b999d-bf60-4f28-9b07-d8c2ed6a1dde")
-		(property "Reference" "S2"
+		(property "Reference" "S3"
 			(at 208.28 106.68 90)
 			(effects
 				(font
@@ -8882,7 +11199,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "KF141R-2.54-02P-14"
 			(at 212.09 111.76 90)
 			(effects
 				(font
@@ -8892,7 +11209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Series_KF141R:KF141R-2.54-02P-14 (DG141R-2.54-02P-14)"
 			(at 210.82 106.68 0)
 			(effects
 				(font
@@ -8928,7 +11245,7 @@
 		(instances
 			(project "SCMD-PB16SM"
 				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
-					(reference "S2")
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -8995,6 +11312,93 @@
 			(project "SCMD-PB16SM"
 				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 48.26 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb74df83-ab2b-4bf0-a041-440c2b2e7d38")
+		(property "Reference" "DL3"
+			(at 41.148 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 39.116 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 48.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 48.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 48.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 48.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f98d5f6-3d96-41a2-b179-2d584bbb84c3")
+		)
+		(pin "2"
+			(uuid "2cdec273-2a9b-49ca-887c-912bb8253436")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "DL3")
 					(unit 1)
 				)
 			)
@@ -9205,6 +11609,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 127 40.64 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d02d27ab-ac90-4d32-b325-fe93f0fbb50b")
+		(property "Reference" "JP12"
+			(at 120.142 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PCIN Init"
+			(at 116.332 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCIN Init"
+			(at 127 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "61bcb0d7-9c15-41e7-8060-8c170b7ce803")
+		)
+		(pin "1"
+			(uuid "802db725-9bb9-488d-9fc6-eae85f6e4faf")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "JP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 59.69 123.19 0)
 		(mirror x)
@@ -9282,7 +11755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d25a9340-c467-4063-973e-5eb54c19d89b")
-		(property "Reference" "J1"
+		(property "Reference" "S1"
 			(at 219.71 35.56 0)
 			(effects
 				(font
@@ -9298,7 +11771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Series_KF141R:KF141R-2.54-02P-14 (DG141R-2.54-02P-14)"
 			(at 219.71 30.48 0)
 			(effects
 				(font
@@ -9334,7 +11807,7 @@
 		(instances
 			(project "SCMD-PB16SM"
 				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
-					(reference "J1")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -9425,7 +11898,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "KF141R-2.54-02P-14"
 			(at 58.42 115.57 90)
 			(effects
 				(font
@@ -9435,7 +11908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Series_KF141R:KF141R-2.54-02P-14 (DG141R-2.54-02P-14)"
 			(at 57.15 110.49 0)
 			(effects
 				(font
@@ -9629,7 +12102,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "KF141R-2.54-02P-14"
 			(at 58.42 170.18 90)
 			(effects
 				(font
@@ -9639,7 +12112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Series_KF141R:KF141R-2.54-02P-14 (DG141R-2.54-02P-14)"
 			(at 57.15 165.1 0)
 			(effects
 				(font
@@ -9767,7 +12240,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "KF141R-2.54-02P-14"
 			(at 137.16 60.96 90)
 			(effects
 				(font
@@ -9777,7 +12250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Series_KF141R:KF141R-2.54-02P-14 (DG141R-2.54-02P-14)"
 			(at 135.89 55.88 0)
 			(effects
 				(font
@@ -9814,6 +12287,75 @@
 			(project "SCMD-PB16SM"
 				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
 					(reference "in/out11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 48.26 148.59 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9e94cac-40b4-4390-bc71-070a34b31571")
+		(property "Reference" "JP5"
+			(at 41.402 146.304 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PCIN Init"
+			(at 37.592 149.352 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 48.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCIN Init"
+			(at 48.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef3f210f-240a-4b86-af50-41bcf88741ec")
+		)
+		(pin "1"
+			(uuid "85b26991-f381-4e48-8c1d-cce7461a2127")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -9951,6 +12493,180 @@
 			(project "SCMD-PB16SM"
 				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
 					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 127 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2e9b80f-08c1-431c-b420-33eeef8c2410")
+		(property "Reference" "DL8"
+			(at 119.888 137.414 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 117.856 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 127 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2c644a1-78ac-4d1a-ae77-742646527276")
+		)
+		(pin "2"
+			(uuid "13735ce9-16cd-40df-a7a4-cd408ee3e1e6")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "DL8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 48.26 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3cb52e9-c518-418f-824e-61dcf53e307f")
+		(property "Reference" "DL6"
+			(at 41.148 166.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 39.116 169.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 48.26 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee80e186-462e-478f-b2c6-1d1705d5edf1")
+		)
+		(pin "2"
+			(uuid "3a541ff4-5d84-4a23-b218-9b165fa5e12b")
+		)
+		(instances
+			(project "SCMD-PB16SM"
+				(path "/f5ec8782-2424-49fb-9b4f-5c19990dd575"
+					(reference "DL6")
 					(unit 1)
 				)
 			)
